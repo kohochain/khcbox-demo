@@ -16,6 +16,6 @@
   "author": "koho",
   "license": "ISC",
   "dependencies": {
-    "khcbox-cli": "^1.0.3"
+    "khcbox-cli": "^1.0.4"
   }
 }
