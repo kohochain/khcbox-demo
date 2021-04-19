@@ -1,0 +1,21 @@
+{
+  "name": "khcbox",
+  "version": "1.0.0",
+  "description": "utils for testing and publishing magicdata contracts",
+  "main": "khcbox.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "khcbox compile",
+    "compile:all": "khcbox compile --compile-all",
+    "publish:test": "khcbox migrate --reset --network testnet",
+    "publish": "khcbox migrate --reset --network mainnet"
+  },
+  "author": "koho",
+  "license": "ISC",
+  "dependencies": {
+    "khcbox-cli": "^1.0.0"
+  }
+}
